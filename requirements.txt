@@ -1,0 +1,16 @@
+torch
+torchvision
+torchaudio
+ffmpeg-python
+openai
+tqdm
+requests
+numpy
+pillow
+soundfile
+moviepy
+python-dotenv
+fastapi
+uvicorn
+git+https://github.com/openai/whisper.git
+python-multipart
