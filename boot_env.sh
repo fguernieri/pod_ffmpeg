@@ -14,4 +14,4 @@ source /workspace/venv/bin/activate
 mkdir -p /workspace/logs
 nohup uvicorn app:app --host 0.0.0.0 --port 8090 > /workspace/logs/api.log 2>&1 &
 
-echo "✅ Servidor iniciado em http://<IP_DO_POD>:8090"
+echo "✅ Servidor iniciado em https://wf5t8vt9cgo9fb-8090.proxy.runpod.net/"
