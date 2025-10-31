@@ -1,4 +1,5 @@
 # === Core PyTorch (GPU Ready) ===
+# PyTorch GPU é instalado no Dockerfile, mas as versões são mantidas aqui por compatibilidade.
 torch>=2.2.0
 torchvision>=0.17.0
 torchaudio>=2.2.0
@@ -9,7 +10,10 @@ moviepy==1.0.3
 imageio[ffmpeg]>=2.34.0
 soundfile>=0.12.1
 numpy>=1.26.0
-pillow==9.5.0      # ✅ compatível com MoviePy (ANTIALIAS fix)
+pillow==9.5.0        # ✅ compatível com MoviePy (ANTIALIAS fix)
+opencv-python>=4.10.0
+cupy-cuda12x>=13.0.0 # aceleração via GPU CUDA 12.x
+matplotlib>=3.9.0
 
 # === API / Web Server ===
 fastapi>=0.115.0
